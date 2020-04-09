@@ -1,0 +1,183 @@
+{
+  "contractName": "SavingsCircle",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/name/dev/celo/contracts/SavingsCircle.sol\":\"SavingsCircle\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/name/dev/celo/contracts/SavingsCircle.sol\":{\"keccak256\":\"0x85cdd47f0b7e74b8d3f6b28ed5d25fa352831f9018e0a42be04b8dcd301df764\",\"urls\":[\"bzz-raw://f430e0d744c0c0e9a9d9f412290afd91d6647ea38351403089dcafddbd4a8093\",\"dweb:/ipfs/QmaXbniBEpMtJB6ZUYBDwaovzXyEWYXEPnJmE676vgceLo\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820bd039eaa79d6343a8521d2fd0677630d2e1908b2785c60ad12e27ceb81c19d2264736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820bd039eaa79d6343a8521d2fd0677630d2e1908b2785c60ad12e27ceb81c19d2264736f6c63430005100032",
+  "sourceMap": "35:55:2:-;;;62:26;8:9:-1;5:2;;;30:1;27;20:12;5:2;62:26:2;35:55;;;;;;",
+  "deployedSourceMap": "35:55:2:-;;;;;",
+  "source": "pragma solidity >= 0.5.0 < 0.7.0;\n\ncontract SavingsCircle {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "/Users/name/dev/celo/contracts/SavingsCircle.sol",
+  "ast": {
+    "absolutePath": "/Users/name/dev/celo/contracts/SavingsCircle.sol",
+    "exportedSymbols": {
+      "SavingsCircle": [
+        37
+      ]
+    },
+    "id": 38,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 32,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:33:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 37,
+        "linearizedBaseContracts": [
+          37
+        ],
+        "name": "SavingsCircle",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 35,
+              "nodeType": "Block",
+              "src": "83:5:2",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 36,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 33,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "73:2:2"
+            },
+            "returnParameters": {
+              "id": 34,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "83:0:2"
+            },
+            "scope": 37,
+            "src": "62:26:2",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 38,
+        "src": "35:55:2"
+      }
+    ],
+    "src": "0:91:2"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/name/dev/celo/contracts/SavingsCircle.sol",
+    "exportedSymbols": {
+      "SavingsCircle": [
+        37
+      ]
+    },
+    "id": 38,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 32,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:33:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 37,
+        "linearizedBaseContracts": [
+          37
+        ],
+        "name": "SavingsCircle",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 35,
+              "nodeType": "Block",
+              "src": "83:5:2",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 36,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 33,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "73:2:2"
+            },
+            "returnParameters": {
+              "id": 34,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "83:0:2"
+            },
+            "scope": 37,
+            "src": "62:26:2",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 38,
+        "src": "35:55:2"
+      }
+    ],
+    "src": "0:91:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.23",
+  "updatedAt": "2020-04-09T14:30:35.514Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
